@@ -1,1 +1,38 @@
-/* Your CSS here. */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.card {
+  background-color: steelblue;
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card h1 {
+  margin: 15px 0;
+}
+
+.card a {
+  color: yellow;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
